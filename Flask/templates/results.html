@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+<style>
+  h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  }
+  p {
+  color:white; 
+  height:80;
+  text-align: center;
+  background: white;
+  }
+  </style>
+<h1 class="bg-steel">
+
+  <p> 
+  {{table|safe}}
+  
+
+</p>
+</h1>
+
+<img src="{{ image }}"/>
+
+<form action="{{url_for('predict')}}">
+  <input type="submit" value="Refresh" />
+  </form>
+{% endblock content %}

@@ -1,0 +1,5 @@
+,Model,Norm_losses,Total_losses,Improvement
+0,No Model,-42.0,-149158.0,1.0
+1,Multinomial Naive Bayes,-41.0,-148721.0,1.0029383879882465
+2,Bernoulli Naive Bayes,-41.0,-145890.0,1.0224004386866818
+3,Gradient Boosted Classifier,-10.0,-36210.0,4.11924882629108
